@@ -1,12 +1,50 @@
-# Book-Search-Engine
+# Book Search Engine
 
-https://book-search-engine23.herokuapp.com/
+A MERN-stack app for searching the Google Books API and saving books to your personal reading list. It started as a RESTful API and was refactored to use GraphQL with Apollo Server.
 
-The Book search engine is an application is leveraging the entire MERN stack and with a React front end, MongoDB database, and Node.js/Express.js server and API. It's set up to allow users to save book searches to the back end.The application is built using Google Books API search engine build with GraphQL API and Apollo Server.
+> The original Heroku deployment is no longer available because Heroku ended its free tier. Follow **Getting Started** to run it locally.
 
+## Features
 
-![](demo/21-mern-demo-01.gif)
+- Search for books with the Google Books API
+- Sign up and log in with JWT authentication
+- Save books to your account
+- View and remove saved books
 
-![](demo/21-mern-demo-02.gif)
+## Built With
 
-![](demo/21-mern-demo-03.gif)
+**Front end:** React · Apollo Client · React Router · React Bootstrap
+**Back end:** Node.js · Express.js · Apollo Server (GraphQL) · MongoDB · Mongoose · JSON Web Tokens
+
+## GraphQL API
+
+- **Query:** `me` returns the logged-in user and their saved books
+- **Mutations:** `login`, `addUser`, `saveBook`, `removeBook`
+
+## Getting Started
+
+**Prerequisites:** Node.js and MongoDB
+
+```bash
+git clone https://github.com/Archils/Book-Search-Engine.git
+cd Book-Search-Engine
+npm install        # installs server and client packages
+npm run develop    # runs the API and React app together
+```
+
+- React app: http://localhost:3000
+- GraphQL playground: http://localhost:3001/graphql
+
+## Screenshots
+
+![Screenshot](demo/21-mern-demo-01.gif)
+
+![Screenshot](demo/21-mern-demo-02.gif)
+
+![Screenshot](demo/21-mern-demo-03.gif)
+
+## Author
+
+**Archils Oburu**
+- GitHub: [@Archils](https://github.com/Archils)
+- Email: oburuarchils@gmail.com
