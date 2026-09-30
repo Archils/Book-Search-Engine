@@ -26,7 +26,7 @@ A MERN-stack app for searching the Google Books API and saving books to your per
 **Prerequisites:** Node.js and MongoDB
 
 ```bash
-git clone https://github.com/Archils/Book-Search-Engine.git
+git clone https://github.com/Archo2/Book-Search-Engine.git
 cd Book-Search-Engine
 npm install        # installs server and client packages
 npm run develop    # runs the API and React app together
@@ -46,5 +46,5 @@ npm run develop    # runs the API and React app together
 ## Author
 
 **Archils Oburu**
-- GitHub: [@Archils](https://github.com/Archils)
+- GitHub: [@Archo2](https://github.com/Archo2)
 - Email: oburuarchils@gmail.com
